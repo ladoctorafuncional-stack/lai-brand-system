@@ -7,14 +7,16 @@ Estado: `validado_localmente`
 
 | Archivo | Uso |
 |---|---|
-| `escarapelas_100x150mm.pdf` | 24 páginas a tamaño real (frente + reverso por persona). Para imprimir directo en 10 × 15 cm o enviar a litografía. |
-| `escarapelas_carta_2up.pdf` | 12 hojas Carta, 2 escarapelas por hoja con marcas de corte. Frente y reverso alternados: imprimir a doble cara **volteando por el borde largo**. |
-| `preview/*.png` | Vista previa de cada frente, el reverso y la hoja Carta 1. |
+| **`escarapelas_carta_4up_90x130mm.pdf`** | **Archivo para imprimir.** 6 hojas Carta, 4 escarapelas de 9 × 13 cm por hoja con marcas de corte. Frente y reverso alternados: imprimir a doble cara **volteando por el borde largo** (3 hojas físicas). |
+| `escarapelas_90x130mm.pdf` | 24 páginas a tamaño real 9 × 13 cm (frente + reverso por persona), para litografía. |
+| `escarapelas_carta_2up_100x150mm.pdf` · `escarapelas_100x150mm.pdf` | Variante 10 × 15 cm (2 por hoja Carta). |
+| `preview/*.png` | Vista previa de cada frente, el reverso y la hoja Carta 1, por tamaño. |
 
 ## Especificaciones
 
-- Tamaño: **100 × 150 mm** (escarapela vertical estándar para porta-carnet / cordón).
-- **Franja superior de 14 mm libre** en frente y reverso para ojalete o perforación: el logo empieza a 17,5 mm del borde y no hay texto en esa zona.
+- Tamaño: **90 × 130 mm** (escarapela vertical estándar; variante 100 × 150 mm disponible).
+- **Franja superior libre** (12,6 mm en 9 × 13; 14 mm en 10 × 15) en frente y reverso para ojalete o perforación: ningún elemento la toca.
+- Llama LAI (`marca/elementos/llama-contorno`) como patrón de fondo en contorno, gran escala, 20 % de opacidad, según guía `brand-llama`; llama sólida navy como icono en el reverso.
 - Logo: kit v2 `marca/logos/v2/logo-vertical-blanco.svg` (escudo oro + wordmark blanco), sin redibujar.
 - Tipografía: Lato (300 / 400 / 400 it / 700 / 900) embebida.
 - Paleta: tokens LAI (`navy #1B1464`, `índigo #09052C`, `azul #3640D7`, `eléctrico #4E57FF`, `teal #4AF1D2`, `periwinkle #8D89F7`, `lila #D2D2FC`).
@@ -32,7 +34,8 @@ Estado: `validado_localmente`
 
 ```bash
 pip install playwright qrcode pillow
-python3 build.py
+python3 build.py                                    # 9 × 13 cm, 4 por hoja Carta
+python3 build.py --size 100x150 --cols 2 --rows 1   # 10 × 15 cm, 2 por hoja Carta
 ```
 
 Nombres, roles, fecha, título y URL del QR se editan en la cabecera de `build.py`
