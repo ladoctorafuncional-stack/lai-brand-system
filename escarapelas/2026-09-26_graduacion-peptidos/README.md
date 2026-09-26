@@ -15,7 +15,7 @@ Estado: `validado_localmente`
 ## Especificaciones
 
 - Tamaño: **90 × 130 mm** (escarapela vertical estándar; variante 100 × 150 mm disponible).
-- **Franja superior libre** (12,6 mm en 9 × 13; 14 mm en 10 × 15) en frente y reverso para ojalete o perforación: ningún elemento la toca.
+- **Guía de perforación** marcada en ambas caras: ranura punteada de 14 × 3 mm centrada, a 5,5 mm del borde superior, con punto central para perforación redonda (ø 5 mm). Franja superior libre (12,6 mm en 9 × 13; 14 mm en 10 × 15): ningún elemento la toca.
 - Llama LAI (`marca/elementos/llama-contorno`) como patrón de fondo en contorno, gran escala, 20 % de opacidad, según guía `brand-llama`; llama sólida navy como icono en el reverso.
 - Logo: kit v2 `marca/logos/v2/logo-vertical-blanco.svg` (escudo oro + wordmark blanco), sin redibujar.
 - Tipografía: Lato (300 / 400 / 400 it / 700 / 900) embebida.

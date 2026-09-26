@@ -69,6 +69,7 @@ _args = _ap.parse_args()
 W, H = (float(v) for v in _args.size.lower().split("x"))   # tamaño escarapela
 S = W / 100.0              # factor de escala tipográfica (diseño base: 100 × 150 mm)
 HOLE_ZONE = round(14 * S, 1)   # franja superior libre para perforación / ojalete
+PUNCH_W, PUNCH_H, PUNCH_TOP = 14, 3, 5.5   # ranura estándar (mm) y distancia al borde superior
 LETTER_W, LETTER_H = 215.9, 279.4
 COLS, ROWS, GAP = _args.cols, _args.rows, _args.gap
 TAG = f"{W:g}x{H:g}mm"
@@ -180,6 +181,20 @@ html,body{{margin:0;padding:0;background:#fff;font-family:"Lato","Helvetica Neue
   margin-top:{2.2*S:.2f}mm; font-weight:400; font-size:{3.55*S:.2f}mm; letter-spacing:.2em; color:#B9B7FA;
 }}
 
+/* ───────── Guía de perforación (ranura 14 × 3 mm para gancho/cordón) ───────── */
+.punch{{
+  position:absolute; left:50%; top:{PUNCH_TOP}mm; transform:translateX(-50%);
+  width:{PUNCH_W}mm; height:{PUNCH_H}mm; border-radius:99mm;
+  border:.22mm dashed rgba(255,255,255,.55); box-sizing:border-box;
+}}
+.punch::after{{
+  /* punto central: referencia para perforación redonda (ø 5 mm) */
+  content:""; position:absolute; left:50%; top:50%; width:.7mm; height:.7mm;
+  transform:translate(-50%,-50%); border-radius:50%; background:rgba(255,255,255,.55);
+}}
+.back .punch{{ border-color:rgba(27,20,100,.45); }}
+.back .punch::after{{ background:rgba(27,20,100,.45); }}
+
 /* ───────── REVERSO ───────── */
 .back{{ background:#fff; color:var(--navy); }}
 .back .llama-icon{{
@@ -233,6 +248,7 @@ def front_html(rol, lineas):
     return f"""
 <div class="card front">
   <img class="llama" src="{LLAMA_CONTORNO_URI}" alt="">
+  <div class="punch"></div>
   <div class="rol">{rol}</div>
   <img class="logo" src="{LOGO_URI}" alt="Longevity Academic Institute">
   <div class="bloque">
@@ -250,6 +266,7 @@ def back_html():
     return f"""
 <div class="card back">
   <img class="llama-icon" src="{LLAMA_SOLIDA_NAVY_URI}" alt="">
+  <div class="punch"></div>
   <div class="marco"><div class="scan">SCAN ME</div></div>
   <img class="qr" src="{QR_URI}" alt="QR">
   <div class="url">{EVENTO['url_texto']}</div>
