@@ -19,9 +19,10 @@ brand/
     cfmc/                   Sello CFMC (Certified Functional Medicine Clinician)
   fotografia/
     dra-carolina/   Retratos oficiales
-tokens/             Paleta, tipografía, espaciado (CSS · JSON · Tailwind)
-fonts/              Tipografías embebidas (base64)
+tokens/             Paleta, tipografía, gradientes, efectos (CSS, fuente Drive)
+fonts/              Tipografías embebidas (Lato, Arimo)
 components/         Componentes HTML autocontenidos
+templates/decks/    Opciones de diseño del deck de formación académica
 guidelines/         Brandbook LAI
 ```
 
