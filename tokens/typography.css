@@ -1,0 +1,47 @@
+:root {
+  --font-display: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: "Arimo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* El serif de LONGEVITY® es EB Garamond Bold, kerneado a mano.
+     La palabra se toma SIEMPRE del maestro vectorizado en
+     marca/logos/v2/wordmark-horizontal-*.svg — nunca se recompone. */
+  --font-wordmark-ref: "EB Garamond", Garamond, Georgia, serif;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
+  --fw-black: 900;
+
+  /* Infografía / pantalla (px) */
+  --fs-h1: 70px;
+  --fs-h2: 44px;
+  --fs-h3: 32px;
+  --fs-body: 27px;
+  --fs-body-min: 24px;
+
+  /* Documento (pt) */
+  --fs-doc-h1: 26pt;
+  --fs-doc-h2: 18pt;
+  --fs-doc-h3: 13pt;
+  --fs-doc-body: 10.5pt;
+  --fs-doc-min: 9pt;
+
+  /* Texto científico largo — libros, artículos, revistas, blogs.
+     Régimen APRETADO: distinto al de las piezas de comunicación. */
+  --fs-cientifico: 10.5pt;
+  --fs-cientifico-min: 9pt;
+  --lh-cientifico: 1.35;
+  --fs-figura-pie: 8.5pt;
+  --indent-parrafo: 1.2em;
+  --columnas-cientifico: 2;
+  --column-gap-cientifico: 26px;
+  --medida-min-ch: 58ch;
+  --medida-max-ch: 68ch;
+
+  --lh-tight: 1.08;
+  --lh-heading: 1.14;
+  --lh-body: 1.6;
+
+  --tracking-antetitulo: 0.29em;
+  --tracking-wordmark-bajada: 0.371em;
+}

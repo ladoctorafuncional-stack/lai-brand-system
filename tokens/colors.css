@@ -1,0 +1,74 @@
+:root {
+  /* Primarios */
+  --lai-navy: #1B1464;
+  --lai-indigo: #09052C;
+  --lai-azul: #3640D7;
+  --lai-azul-electrico: #4E57FF;
+  --lai-cian: #00F6E3;
+  --lai-periwinkle: #8D89F7;
+  --lai-lila: #D2D2FC;
+
+  /* Secundarios */
+  --lai-periwinkle-claro: #9D9DFF;
+  --lai-teal: #4AF1D2;
+  --lai-menta: #B7FFF8;
+
+  /* Neutros */
+  --lai-blanco: #FFFFFF;
+  --lai-gris-fondo: #F6F6F6;
+  --lai-gris-linea: #DBDCE5;
+  --lai-gris-texto: #4D4D4D;
+  --lai-gris-medio: #6A6F9E;
+  --lai-negro: #0A0A12;
+
+  /* Alerta — solo seguridad clínica */
+  --lai-rojo: #FF3131;
+
+  /* Oro — NO son colores de uso. Son las seis paradas internas que arman
+     --grad-oro en tokens/gradients.css, único token de oro consumible.
+     El oro nunca va plano: no uses estas paradas como fill ni como color. */
+  --lai-oro-stop-1: #F6EABF;
+  --lai-oro-stop-2: #D1BA80;
+  --lai-oro-stop-3: #896B38;
+  --lai-oro-stop-4: #BB9E66;
+  --lai-oro-stop-5: #D1BA80;
+  --lai-oro-stop-6: #8A6C39;
+
+  /* Semánticos — claro */
+  --text-h1: var(--lai-navy);
+  --text-h2: var(--lai-azul-electrico);
+  --text-h3: var(--lai-periwinkle);
+  --text-body: var(--lai-gris-texto);
+  --text-muted: var(--lai-gris-medio);
+  --text-link: var(--lai-azul);
+  --text-link-hover: var(--lai-azul-electrico);
+  --surface-page: var(--lai-gris-fondo);
+  --surface-card: var(--lai-blanco);
+  --border-hairline: var(--lai-gris-linea);
+  --accent-default: var(--lai-azul-electrico);
+  --accent-data: var(--lai-cian);
+  --accent-danger: var(--lai-rojo);
+
+  /* Foco — visible sobre claro y sobre oscuro */
+  --focus-ring: 0 0 0 2px var(--lai-blanco), 0 0 0 5px var(--lai-azul-electrico);
+
+  /* Inhabilitado — sin opacidad: el manual prohíbe rebajar la tinta */
+  --disabled-bg: var(--lai-gris-linea);
+  --disabled-ink: var(--lai-gris-medio);
+}
+
+[data-lai-theme="oscuro"] {
+  --text-h1: var(--lai-blanco);
+  --text-h2: var(--lai-teal);
+  --text-h3: var(--lai-periwinkle);
+  --text-body: var(--lai-blanco);
+  --text-muted: var(--lai-lila);
+  --text-link: var(--lai-cian);
+  --text-link-hover: var(--lai-menta);
+  --surface-page: var(--lai-indigo);
+  --surface-card: rgba(255, 255, 255, 0.08);
+  --border-hairline: rgba(255, 255, 255, 0.18);
+  --focus-ring: 0 0 0 2px var(--lai-indigo), 0 0 0 5px var(--lai-cian);
+  --disabled-bg: rgba(255, 255, 255, 0.14);
+  --disabled-ink: var(--lai-lila);
+}

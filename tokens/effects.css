@@ -1,0 +1,28 @@
+:root {
+  --radius-card: 12px;
+  --radius-card-sm: 10px;
+  --radius-pill: 999px;
+
+  /* Recuadro biselado — el recuadro estándar de la marca.
+     Bisel, NO sombra difusa. */
+  --bevel-fill: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%);
+  --bevel-shadow:
+    inset 2px 2px 0 rgba(255, 255, 255, 1),
+    inset -2px -2px 0 rgba(27, 20, 100, 0.13),
+    0 1px 1px rgba(27, 20, 100, 0.10),
+    0 9px 18px -11px rgba(27, 20, 100, 0.22);
+
+  /* Asiento de paneles y muestras (no es el recuadro de marca) */
+  --panel-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);
+
+  /* Filete de acento del recuadro: 4 px, puntas redondeadas,
+     18 px de separación arriba y abajo */
+  --accent-bar-width: 4px;
+  --accent-bar-inset: 18px;
+
+  --hairline: 1px solid var(--border-hairline);
+
+  /* Subrayado de cian: filete bajo la línea de base, nunca detrás de las letras */
+  --underline-cian-size: 100% 5px;
+  --underline-cian-pad: 7px;
+}

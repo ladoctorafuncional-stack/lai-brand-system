@@ -1,0 +1,24 @@
+:root {
+  /* Sobrias / académicas — navy e índigo con un solo halo de azul contenido */
+  --grad-navy-profundo: linear-gradient(165deg, #1B1464 0%, #09052C 100%);
+  --grad-boveda: radial-gradient(95% 65% at 50% 0%, rgba(54, 64, 215, 0.45) 0%, rgba(54, 64, 215, 0) 70%), linear-gradient(170deg, #1B1464 0%, #09052C 100%);
+  --grad-luz-lateral: radial-gradient(75% 90% at 92% 8%, rgba(54, 64, 215, 0.55) 0%, rgba(54, 64, 215, 0) 62%), linear-gradient(160deg, #09052C 0%, #1B1464 100%);
+  --grad-gris-academia: linear-gradient(160deg, #1B1464 0%, #6A6F9E 100%);
+  --grad-papel: linear-gradient(170deg, #FFFFFF 0%, #F6F6F6 58%, #D2D2FC 100%);
+  --grad-editorial-claro: radial-gradient(95% 75% at 12% 4%, #FFFFFF 0%, rgba(255, 255, 255, 0) 62%), linear-gradient(160deg, #D2D2FC 0%, #F6F6F6 100%);
+
+  /* Dos y tres colores — bandas, botones, piezas de redes */
+  --grad-navy-azul: linear-gradient(140deg, #1B1464 0%, #3640D7 100%);
+  --grad-indigo-azul: linear-gradient(140deg, #09052C 0%, #3640D7 100%);
+  --grad-electrico-cian: linear-gradient(140deg, #4E57FF 0%, #00F6E3 100%);
+  --grad-lila-menta: linear-gradient(140deg, #D2D2FC 0%, #B7FFF8 100%);
+  --grad-azul-electrico-periwinkle: linear-gradient(140deg, #3640D7 0%, #4E57FF 52%, #8D89F7 100%);
+  --grad-navy-azul-cian: linear-gradient(140deg, #1B1464 0%, #3640D7 55%, #00F6E3 100%);
+
+  /* Mallas — portadas. Las dos aprobadas por la dirección. */
+  --grad-malla-profunda: radial-gradient(120% 90% at 10% 6%, #4E57FF 0%, rgba(78, 87, 255, 0) 58%), radial-gradient(110% 100% at 94% 16%, #8D89F7 0%, rgba(141, 137, 247, 0) 62%), radial-gradient(130% 110% at 78% 98%, #00F6E3 0%, rgba(0, 246, 227, 0) 56%), linear-gradient(150deg, #1B1464 0%, #09052C 100%);
+  --grad-malla-clara: radial-gradient(110% 90% at 88% 12%, #B7FFF8 0%, rgba(183, 255, 248, 0) 60%), radial-gradient(120% 100% at 6% 94%, #9D9DFF 0%, rgba(157, 157, 255, 0) 58%), linear-gradient(140deg, #D2D2FC 0%, #F6F6F6 100%);
+
+  /* Oro — SOLO escudo, filetes de certificado y sellos de aval. Nunca plano. */
+  --grad-oro: linear-gradient(90deg, var(--lai-oro-stop-1) 0%, var(--lai-oro-stop-2) 18%, var(--lai-oro-stop-3) 42%, var(--lai-oro-stop-4) 68%, var(--lai-oro-stop-5) 86%, var(--lai-oro-stop-6) 100%);
+}
