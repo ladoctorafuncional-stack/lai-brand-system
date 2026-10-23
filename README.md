@@ -24,7 +24,7 @@ brand/
     logos-completos/  13 imágenes de perfil 2160×2160 con logo vertical, horizontal y wordmark (10–22)
   material-grafico/ Piezas producidas: afiche del curso, graduación, carnets, brochure, video
 tokens/             Paleta, tipografía, gradientes, efectos (CSS, fuente Drive)
-fonts/              Tipografías: Lato (300, 400, 400 itálica, 700, 900) y eb-garamond/ (OFL). Arimo pendiente
+fonts/              Tipografías: Lato (300, 400, 400 itálica, 700, 900), Arimo (400, 400 itálica, 700) y eb-garamond/ (OFL)
 sitio-web/          Sitio longevityacademicinstitute.com (portada + página del curso)
 components/         Tarjetas de jerarquía tipográfica (claro y oscuro)
 templates/decks/    Opciones de diseño del deck de formación académica

@@ -71,11 +71,13 @@ Sitio publicado en `longevityacademicinstitute.com` (`CNAME`): `index.html`
 (página autocontenida de la Formación en Medicina Peptídica y Bioregulación
 Celular, ~4 MB). Fuente: `LAI_brand_manual_location.zip`.
 
-## Tipografía Lato · `../fonts/`
+## Tipografías Lato y Arimo · `../fonts/`
 
-`lato-300.ttf` (Light), `lato-400.ttf` (Regular), `lato-400-italic.ttf`,
-`lato-700.ttf` (Bold), `lato-900.ttf` (Black): los 5 pesos que declara
-`tokens/fonts.css`.
+- Lato (display): `lato-300.ttf` (Light), `lato-400.ttf` (Regular),
+  `lato-400-italic.ttf`, `lato-700.ttf` (Bold), `lato-900.ttf` (Black).
+- Arimo (cuerpo): `arimo-400.ttf`, `arimo-400-italic.ttf`, `arimo-700.ttf`.
+
+Son los 8 archivos que declara `tokens/fonts.css`.
 
 ## Manual, componentes y páginas (Claude Design)
 
@@ -85,7 +87,6 @@ están en el repo; detalle en `../guidelines/README.md`.
 
 ## Pendientes de ingreso
 
-- `fonts/` Arimo 400, 400 itálica y 700.
 - `tokens/fonts.css` apunta a `../marca/fonts/` (estructura del proyecto
   original); en este repo las fuentes están en `fonts/`.
 - Dependencias `marca/…` del manual y las páginas (ver `../guidelines/README.md`).
