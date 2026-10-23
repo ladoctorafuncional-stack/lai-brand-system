@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+@font-face { font-family: "Lato"; src: url("marca/fonts/lato-300.ttf") format("truetype"); font-weight: 300; }
+@font-face { font-family: "Lato"; src: url("marca/fonts/lato-400.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "Lato"; src: url("marca/fonts/lato-400-italic.ttf") format("truetype"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Lato"; src: url("marca/fonts/lato-700.ttf") format("truetype"); font-weight: 700; }
+@font-face { font-family: "Lato"; src: url("marca/fonts/lato-900.ttf") format("truetype"); font-weight: 900; }
+@font-face { font-family: "ArimoLAI"; src: url("marca/fonts/arimo-400.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "ArimoLAI"; src: url("marca/fonts/arimo-400-italic.ttf") format("truetype"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "ArimoLAI"; src: url("marca/fonts/arimo-700.ttf") format("truetype"); font-weight: 700; }
+body { margin: 0; background: #F6F6F6; }
+a { color: #3640D7; text-decoration: none; }
+a:hover { color: #4E57FF; }
+
+doc-page:not(:defined) { visibility: hidden; }
+* { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+* { animation-delay: -99s !important; animation-duration: .001s !important;
+    animation-iteration-count: 1 !important; animation-fill-mode: both !important;
+    animation-play-state: running !important; transition-duration: 0s !important; }
+</style>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect width="200" height="200" fill="#1B1464"/><text x="100" y="118" font-family="Georgia, serif" font-weight="bold" font-size="64" fill="#FFFFFF" text-anchor="middle">LAI</text></svg></template>
+<script src="./doc-page.js"></script>
+</helmet>
+
+<doc-page margin="0.5in">
+<div style="font-family: ArimoLAI, Helvetica, sans-serif; color: #4D4D4D; display: flex; flex-direction: column; align-items: center; gap: 0;">
+
+  <section style="width: 100%; background: linear-gradient(160deg, #1B1464 0%, #161046 38%, #0E0935 70%, #09052C 100%); padding: 56px 48px 52px; box-sizing: border-box; position: relative; overflow: hidden;">
+    <img src="marca/elementos/llama-contorno-blanco.svg" alt="" style="position: absolute; top: -180px; right: -60px; width: 300px; opacity: 0.18;" />
+    <img src="marca/elementos/llama-contorno-blanco.svg" alt="" style="position: absolute; bottom: -240px; left: -70px; width: 240px; opacity: 0.13;" />
+    <div style="position: relative; display: flex; flex-direction: column; gap: 40px; max-width: 1180px;">
+      <img src="marca/logos/v2/logo-horizontal-blanco.svg" alt="Longevity Academic Institute" style="width: 340px; height: auto;" />
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div style="font-family: Lato, sans-serif; font-weight: 400; font-size: 15px; letter-spacing: 5px; text-transform: uppercase; color: #8D89F7;">Suite de diseño instalada</div>
+        <h1 style="margin: 0; font-family: Lato, sans-serif; font-weight: 700; font-size: 46px; line-height: 1.08; color: #FFFFFF; text-wrap: pretty;">Manual de marca<br /><span style="font-weight: 300;">Longevity Academic Institute®</span></h1>
+        <div style="font-family: Lato, sans-serif; font-style: italic; font-size: 22px; color: #4AF1D2;">La excelencia contínua del pensamiento médico.</div>
+      </div>
+      <img src="marca/elementos/filete-oro-horizontal.svg" alt="" style="width: 100%; height: 8px;" />
+      <div style="display: flex; flex-wrap: wrap; gap: 48px; font-size: 15px; color: #D2D2FC;">
+        <div>Logotipo v2 · 6 lockups · 8 fuentes · 13 elementos · 27 iconos ×2</div>
+        <div>Lato + Helvetica (Arimo)</div>
+        <div>navy #1B1464 · azul #3640D7 · cian #00F6E3</div>
+      </div>
+    </div>
+  </section>
+
+  <div style="width: 100%; max-width: 1360px; padding: 0; box-sizing: border-box; display: flex; flex-direction: column; gap: 72px; margin-top: 72px;">
+
+    <section data-document-role="page" style="display: flex; flex-direction: column; gap: 28px;">
+      <div style="display: flex; align-items: baseline; gap: 18px;">
+        <h2 style="margin: 0; font-family: Lato, sans-serif; font-weight: 700; font-size: 28px; color: #1B1464;">Paleta oficial</h2>
+        <span style="font-size: 15px; color: #6A6F9E;">21 tokens. Fuera de esta lista no hay color LAI.</span>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px;">
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="height: 108px; border-radius: 4px; background: #1B1464;"></div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 14px; color: #1B1464;">navy</div>
+          <div style="font-size: 12px; color: #6A6F9E;">#1B1464 · H1, bandas</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="height: 108px; border-radius: 4px; background: #09052C;"></div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 14px; color: #1B1464;">índigo hondo</div>
+          <div style="font-size: 12px; color: #6A6F9E;">#09052C · fondos</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="height: 108px; border-radius: 4px; background: #3640D7;"></div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 14px; color: #1B1464;">azul</div>
+          <div style="font-size: 12px; color: #6A6F9E;">#3640D7 · secciones</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="height: 108px; border-radius: 4px; background: #4E57FF;"></div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 14px; color: #1B1464;">azul eléctrico</div>
+          <div style="font-size: 12px; color: #6A6F9E;">#4E57FF · H2, CTA</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="height: 108px; border-radius: 4px; background: #00F6E3;"></div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 14px; color: #1B1464;">cian</div>
+          <div style="font-size: 12px; color: #6A6F9E;">#00F6E3 · acento</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="height: 108px; border-radius: 4px; background: #8D89F7;"></div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 14px; color: #1B1464;">periwinkle</div>
+          <div style="font-size: 12px; color: #6A6F9E;">#8D89F7 · H3</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="height: 108px; border-radius: 4px; background: #D2D2FC;"></div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 14px; color: #1B1464;">lila</div>
+          <div style="font-size: 12px; color: #6A6F9E;">#D2D2FC · captions</div>
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px;">
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="height: 56px; border-radius: 4px; background: #9D9DFF;"></div>
+          <div style="font-size: 12px; color: #6A6F9E;">periwinkle cl. #9D9DFF</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="height: 56px; border-radius: 4px; background: #4AF1D2;"></div>
+          <div style="font-size: 12px; color: #6A6F9E;">teal #4AF1D2</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="height: 56px; border-radius: 4px; background: #B7FFF8;"></div>
+          <div style="font-size: 12px; color: #6A6F9E;">menta #B7FFF8</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="height: 56px; border-radius: 4px; background: #F6F6F6; border: 1px solid #DBDCE5;"></div>
+          <div style="font-size: 12px; color: #6A6F9E;">gris fondo #F6F6F6</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="height: 56px; border-radius: 4px; background: #DBDCE5;"></div>
+          <div style="font-size: 12px; color: #6A6F9E;">gris línea #DBDCE5</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="height: 56px; border-radius: 4px; background: #4D4D4D;"></div>
+          <div style="font-size: 12px; color: #6A6F9E;">gris texto #4D4D4D</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="height: 56px; border-radius: 4px; background: #FF3131;"></div>
+          <div style="font-size: 12px; color: #6A6F9E;">rojo #FF3131 · solo alerta</div>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 12px; background: #FFFFFF; border: 1px solid #DBDCE5; border-radius: 6px; padding: 26px 30px;">
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 18px; color: #1B1464;">El oro: solo el escudo, y nunca plano</div>
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: #6A6F9E;">Rampa del escudo — 50 paradas, remuestreadas del arte original</div>
+        <div style="height: 34px; border-radius: 3px; background: linear-gradient(90deg, #DEC995 0.00%, #DEC995 1.04%, #EFE0B0 3.13%, #F2E3B4 5.21%, #F1E3B4 7.29%, #EDDDAB 9.38%, #E2CE98 11.46%, #D5BE86 13.54%, #C8AF76 15.63%, #BBA066 17.71%, #AE9258 19.79%, #A3854D 21.88%, #987A44 23.96%, #8D6F3B 26.04%, #896B39 28.13%, #896B39 30.21%, #896B38 32.29%, #896B39 34.38%, #896B39 36.46%, #8A6C39 38.54%, #896B39 40.63%, #8A6B39 42.71%, #896B39 44.79%, #896B39 46.88%, #896B39 48.96%, #896B38 51.04%, #8A6B39 53.13%, #8A6B38 55.21%, #8C6E3A 57.29%, #90703C 59.38%, #93743F 61.46%, #967741 63.54%, #997A44 65.63%, #9D7E46 67.71%, #A1824A 69.79%, #A5864F 71.88%, #A98A52 73.96%, #AC8F56 76.04%, #B1935B 78.13%, #B4975F 80.21%, #B99C63 82.29%, #BCA067 84.38%, #C0A46C 86.46%, #C4A971 88.54%, #C8AD75 90.63%, #CFB67E 92.71%, #E1CB96 94.79%, #EDDDAD 96.88%, #F7EEC5 98.96%, #F7EEC5 100.00%);"></div>
+        <div style="font-size: 14px; line-height: 1.6; color: #4D4D4D; text-wrap: pretty;">Destello <strong>#F7EEC5</strong> al entrar, meseta oscura <strong>#896B39</strong> entre el 28 % y el 55 %, y subida otra vez a <strong>#F7EEC5</strong> al salir. Esa asimetría es la que hace que el metal se lea pulido y no como un degradado cualquiera; la rampa completa vive en <code>marca/logos/v2/_oro.json</code>.</div>
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: #6A6F9E; margin-top: 6px;">Versión corta — filetes y sellos</div>
+        <div style="height: 20px; border-radius: 3px; background: linear-gradient(90deg, #F6EABF 0%, #D1BA80 18%, #896B38 42%, #BB9E66 68%, #D1BA80 86%, #8A6C39 100%);"></div>
+        <div style="font-size: 14px; line-height: 1.6; color: #4D4D4D; text-wrap: pretty;">Seis paradas: #F6EABF → #D1BA80 → #896B38 → #BB9E66 → #D1BA80 → #8A6C39 — aproximación de la rampa larga, suficiente para filetes de certificado y sellos de aval. Un degradado de dos paradas se lee bronce plano y está prohibido. Fuera del escudo, los filetes y los sellos, el oro no se usa.</div>
+      </div>
+    </section>
+
+    <section data-document-role="page" style="display: flex; flex-direction: column; gap: 28px;">
+      <h2 style="margin: 0; font-family: Lato, sans-serif; font-weight: 700; font-size: 28px; color: #1B1464;">Jerarquía tipográfica</h2>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px;">
+        <div style="min-width: 0; background: #FFFFFF; border: 1px solid #DBDCE5; border-radius: 6px; padding: 34px 36px; display: flex; flex-direction: column; gap: 22px;">
+          <div style="font-size: 13px; letter-spacing: 3px; text-transform: uppercase; color: #6A6F9E;">Sobre fondo claro</div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 28px; line-height: 1.14; color: #1B1464;">Medicina peptídica</div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 30px; color: #4E57FF;">Mecanismo de acción</div>
+          <div style="font-family: ArimoLAI, sans-serif; font-weight: 700; font-size: 22px; color: #8D89F7;">Vía de señalización</div>
+          <div style="font-family: ArimoLAI, sans-serif; font-size: 17px; line-height: 1.6; color: #4D4D4D; text-wrap: pretty;">Cuerpo en Helvetica (Arimo) regular sobre gris texto. Nunca baja de 24 px en infografía ni de 9 pt en documento, y no se usan más de tres niveles de encabezado por pieza.</div>
+        </div>
+        <div style="background: linear-gradient(150deg, #1B1464 0%, #0E0935 60%, #09052C 100%); border-radius: 6px; padding: 34px 36px; display: flex; flex-direction: column; gap: 22px;">
+          <div style="font-size: 13px; letter-spacing: 3px; text-transform: uppercase; color: #8D89F7;">Sobre fondo oscuro</div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 28px; line-height: 1.14; color: #FFFFFF;">Medicina peptídica</div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 30px; color: #4AF1D2;">Mecanismo de acción</div>
+          <div style="font-family: ArimoLAI, sans-serif; font-weight: 700; font-size: 22px; color: #8D89F7;">Vía de señalización</div>
+          <div style="font-family: ArimoLAI, sans-serif; font-size: 17px; line-height: 1.6; color: #FFFFFF; text-wrap: pretty;">Ningún fondo oscuro por debajo de saturación 70 %: un azul desaturado se lee lavanda. El resplandor va en azul #3640D7 sobre índigo hondo.</div>
+        </div>
+      </div>
+      <div style="font-size: 14px; color: #6A6F9E;">Escalas — documento (pt): 26 / 18 / 13 / 10.5 · infografía (px): 70 / 44 / 32 / 27. Los títulos de módulo en portada van en Lato Light, única excepción al H1 Bold.</div>
+    </section>
+
+    <section data-document-role="page" style="display: flex; flex-direction: column; gap: 28px;">
+      <h2 style="margin: 0; font-family: Lato, sans-serif; font-weight: 700; font-size: 28px; color: #1B1464;">Kit de logos</h2>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px;">
+        <div style="min-width: 0; background: #FFFFFF; border: 1px solid #DBDCE5; border-radius: 6px; padding: 44px; display: flex; flex-direction: column; align-items: center; gap: 26px;">
+          <img src="marca/logos/v2/logo-horizontal-navy.svg" alt="Logo horizontal navy" style="width: 100%; max-width: 360px; height: auto;" />
+          <img src="marca/logos/v2/logo-vertical-navy.svg" alt="Logo vertical navy" style="width: 100%; max-width: 180px; height: auto;" />
+          <div style="font-size: 13px; color: #6A6F9E;">Fondo claro — membrete, documentos, certificados</div>
+        </div>
+        <div style="min-width: 0; background: #09052C; border-radius: 6px; padding: 44px; display: flex; flex-direction: column; align-items: center; gap: 26px;">
+          <img src="marca/logos/v2/logo-horizontal-blanco.svg" alt="Logo horizontal blanco" style="width: 100%; max-width: 360px; height: auto;" />
+          <img src="marca/logos/v2/logo-vertical-blanco.svg" alt="Logo vertical blanco" style="width: 100%; max-width: 180px; height: auto;" />
+          <div style="font-size: 13px; color: #8D89F7;">Fondo oscuro — portadas, stories, bandas</div>
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px;">
+        <div style="min-width: 0; background: #FFFFFF; border: 1px solid #DBDCE5; border-radius: 6px; padding: 30px; display: flex; flex-direction: column; align-items: center; gap: 18px;">
+          <img src="marca/logos/v2/escudo.svg" alt="Escudo" style="height: 96px; width: auto; max-width: 100%;" />
+          <div style="font-size: 13px; color: #6A6F9E; text-align: center;">escudo v3 — punta inferior y llama centrada por hueco en su cuadrante</div>
+        </div>
+        <div style="min-width: 0; background: #FFFFFF; border: 1px solid #DBDCE5; border-radius: 6px; padding: 30px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px;">
+          <img src="marca/logos/v2/wordmark-horizontal-navy.svg" alt="Wordmark" style="width: 100%; max-width: 260px; height: auto;" />
+          <div style="font-size: 13px; color: #6A6F9E; text-align: center;">wordmark sin escudo</div>
+        </div>
+        <div style="min-width: 0; background: #FFFFFF; border: 1px solid #DBDCE5; border-radius: 6px; padding: 30px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px;">
+          <img src="marca/logos/firma-carolina.png" alt="Firma Dra. Carolina" style="width: 100%; max-width: 190px; height: auto;" />
+          <div style="font-size: 13px; color: #6A6F9E; text-align: center;">firma — certificados</div>
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; background: #FFFFFF; border: 1px solid #DBDCE5; border-radius: 6px; padding: 30px 34px;">
+        <div style="min-width: 0; display: flex; flex-direction: column; gap: 8px;">
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; color: #1B1464;">1 · LONGEVITY®</div>
+          <div style="font-size: 14px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;">Serif original del logotipo, intocable. Define el ancho de todo el wordmark; el ® va volado a la derecha.</div>
+        </div>
+        <div style="min-width: 0; display: flex; flex-direction: column; gap: 8px;">
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; color: #1B1464;">2 · Filete divisorio</div>
+          <div style="font-size: 14px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;">Filete recto de 1 px al ancho exacto de LONGEVITY — ni un pelo más largo, ni más corto. Va a 9 % de la altura de LONGEVITY por debajo de la palabra.</div>
+        </div>
+        <div style="min-width: 0; display: flex; flex-direction: column; gap: 8px;">
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; color: #1B1464;">3 · ACADEMIC INSTITUTE</div>
+          <div style="font-size: 14px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;">Lato Regular, caja alta, cuerpo al 6 % del ancho del wordmark y tracking de 0.371 em — abierto hasta llenar exactamente el ancho de LONGEVITY. Centrada, a 7 % de la altura de LONGEVITY bajo el filete.</div>
+        </div>
+      </div>
+      <div style="position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 26px 30px 26px 40px; display: flex; flex-direction: column; gap: 8px;">
+        <div style="position: absolute; left: 12px; top: 18px; bottom: 18px; width: 4px; border-radius: 999px; background: #4E57FF;"></div>
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 16px; color: #1B1464;">¿Qué serif es «LONGEVITY»?</div>
+        <div style="font-size: 14px; line-height: 1.6; color: #4D4D4D; text-wrap: pretty;">Un garalda de alto contraste: <strong>EB Garamond Bold</strong>, clon libre del Adobe Garamond Pro Bold. Medido contra el arte original al mismo ancho, el alto de caja coincide exacto — 186 px sobre 1528 — y reproduce los mismos seis encuentros entre letras; ninguna otra candidata (Cormorant, Crimson, Playfair, Caslon, Goudy) se acerca. El original está <strong>kerneado a mano</strong> en dos pares, así que para arte nuevo la palabra se toma del maestro vectorizado, nunca se recompone con la fuente.</div>
+      </div>
+      <div style="font-size: 14px; color: #6A6F9E;">Las tres piezas se componen siempre como un bloque cerrado: nunca se reordenan, se separan ni se usan sueltas. En los lockups el escudo mide <strong>1.58 veces</strong> la altura del bloque tipográfico — 150 px cuando el wordmark ocupa 402 px de ancho. La <strong>llama</strong> va centrada por hueco, no por caja: el blanco que queda sobre su punta y el que queda bajo su base hasta el filete miden lo mismo — 98 px sobre 2348 de alto. La <strong>L, la A y la I</strong> van en el centroide del espacio libre de su cuadrante. Aire mínimo alrededor del logo: la altura del escudo. Tamaño: 24–29 % del ancho en portadas e infografías, 11–13 % en pies. Nunca recolorear el escudo, deformarlo ni aplicarle sombra. Los <strong>PNG del kit se generan rasterizando los SVG</strong>, nunca al contrario: así las dos versiones de cada pieza son la misma figura y el mismo encuadre.</div>
+    </section>
+
+    <section data-document-role="page" style="display: flex; flex-direction: column; gap: 28px;">
+      <h2 style="margin: 0; font-family: Lato, sans-serif; font-weight: 700; font-size: 28px; color: #1B1464;">Elementos e iconografía</h2>
+      <div style="display: flex; flex-direction: column; gap: 16px; background: #FFFFFF; border: 1px solid #DBDCE5; border-radius: 6px; padding: 30px;">
+        <img src="marca/elementos/filete-oro-grueso.svg" alt="Filete de oro grueso" style="width: 100%; height: 24px;" />
+        <img src="marca/elementos/filete-oro-horizontal.svg" alt="Filete de oro" style="width: 100%; height: 8px;" />
+        <img src="marca/elementos/filete-oro-fino.svg" alt="Filete de oro fino" style="width: 100%; height: 3px;" />
+        <div style="display: flex; align-items: center; gap: 42px; margin-top: 12px;">
+          <img src="marca/elementos/llama.svg" alt="Llama" style="height: 96px; width: auto;" />
+          <img src="marca/elementos/llama-contorno.svg" alt="Llama de contorno" style="height: 96px; width: auto;" />
+          <img src="marca/elementos/escudo-contorno.svg" alt="Escudo de contorno" style="height: 96px; width: auto;" />
+          <img src="marca/elementos/escudo-completo-contorno.svg" alt="Escudo completo de línea" style="height: 96px; width: auto;" />
+          <div style="font-size: 14px; color: #4D4D4D; max-width: 520px; text-wrap: pretty;">La <strong>llama</strong> sustituye al asterisco, que salió de la marca. Va maciza para sellos y remates, y de contorno como patrón de fondo a gran escala y 12–22 % de opacidad. Ambas versiones en SVG y PNG, navy y blanco. El escudo de contorno (silueta) y el escudo completo de línea — con la cruz, la L, la A, la I y la llama en trazo — son marca de agua por debajo del 12 % y sello monolínea sobre foto. Ambos en SVG y PNG, navy y blanco.</div>
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; background: #FFFFFF; border: 1px solid #DBDCE5; border-radius: 6px; padding: 30px;">
+        <img src="marca/iconos/azul/molecula.svg" alt="molécula" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/jeringa-vial.svg" alt="jeringa y vial" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/jeringa-reloj.svg" alt="jeringa y reloj" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/vial-gota.svg" alt="vial y gota" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/frasco-pastillas.svg" alt="frasco de pastillas" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/diploma-sello.svg" alt="diploma con sello" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/libros.svg" alt="libros" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/podio-conferencista.svg" alt="podio" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/grupo-personas.svg" alt="grupo de personas" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/grupo-supervision.svg" alt="grupo con supervisión" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/transmision-live.svg" alt="transmisión live" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/24-7.svg" alt="24/7" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/reloj.svg" alt="reloj" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/reloj-vial.svg" alt="reloj y vial" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/calculadora.svg" alt="calculadora" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/documentos.svg" alt="documentos" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/consentimiento.svg" alt="consentimiento" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/credencial-acceso.svg" alt="credencial de acceso" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/usuario-config.svg" alt="usuario configuración" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/ciclo-mejora.svg" alt="ciclo de mejora" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/alerta.svg" alt="alerta" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/prohibido.svg" alt="prohibido" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/no-tocar.svg" alt="no tocar" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/enlace-roto.svg" alt="enlace roto" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/enlace-roto-2.svg" alt="enlace roto 2" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/jeringa.svg" alt="jeringa" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/concha-perla.svg" alt="concha con perla" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/_fgu-escudo.svg" alt="Escudo Florida Global University" style="width: 100%; height: auto;" />
+        <img src="marca/iconos/azul/_fgu-wordmark.svg" alt="Florida Global University" style="width: 100%; height: auto;" />
+      </div>
+      <div style="font-size: 14px; color: #6A6F9E;">27 iconos de línea en un solo color plano (azul, navy o blanco): nunca en oro, con relleno ni degradado. Mínimo 24 px en pantalla, 6 mm en impreso. Cada uno viene en <strong>SVG y PNG</strong> (512 px, fondo transparente) en <code>marca/iconos/azul</code> y <code>marca/iconos/blanco</code>. Los SVG usan <code>fill="currentColor"</code>: para recolorearlos basta cambiar el atributo <code>color</code> del <code>&lt;svg&gt;</code> o heredar el color del contenedor — sin tocar los trazos. Las dos últimas piezas son el aval de Florida Global University: van en su color original y solo donde el curso está avalado.</div>
+    </section>
+
+    <section data-document-role="page" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px;">
+      <div style="min-width: 0; position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 32px 34px 32px 46px; display: flex; flex-direction: column; gap: 14px;">
+        <div style="position: absolute; left: 14px; top: 24px; bottom: 24px; width: 4px; border-radius: 999px; background: #4E57FF;"></div>
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 22px; color: #1B1464;">LAI no es LCI</div>
+        <div style="font-size: 15px; line-height: 1.6; color: #4D4D4D; text-wrap: pretty;">La academia (Longevity &amp; Functional Medicine Academic Institute): Lato + Helvetica, navy #1B1464, azul #3640D7, cian #00F6E3, escudo cuatripartito de punta con L, llama, A e I en oro.<br />La clínica: Poppins + Mencken Std, navy #2A3649, gold #D2B58A, wordmark tipográfico.<br />Nunca se mezclan paletas, tipografías ni logos, y el logo de LCI nunca aparece en material de LAI.</div>
+      </div>
+      <div style="background: #B7FFF8; border: 2px solid #00F6E3; border-radius: 6px; padding: 32px 34px; display: flex; flex-direction: column; gap: 14px;">
+        <div style="display: flex; align-items: center; gap: 10px; font-family: Lato, sans-serif; font-weight: 700; font-size: 22px; color: #1B1464;"><img src="marca/elementos/llama.svg" alt="" style="height: 26px; width: auto; display: block; flex: none;" /><span>Cifras oficiales del programa insignia</span></div>
+        <div style="font-size: 15px; line-height: 1.6; color: #1B1464; text-wrap: pretty;">Formación Académica en Medicina Peptídica y Bioregulación Celular, en escenarios clínicos reales: <strong>15 módulos teóricos · 45 lecciones · +40 horas · 2 días de práctica presencial en Medellín.</strong> El contenido está en ampliación: puede subir, nunca bajar.</div>
+      </div>
+    </section>
+
+    <section data-document-role="page" style="display: flex; flex-direction: column; gap: 30px;">
+      <div style="display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap;">
+        <h2 style="margin: 0; font-family: Lato, sans-serif; font-weight: 700; font-size: 28px; color: #1B1464;">Estilo gráfico</h2>
+        <span style="font-size: 15px; color: #6A6F9E;">Recuadro biselado, degradados y fichas de infografía.</span>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; color: #6A6F9E;">01 · Recuadro biselado</div>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px;">
+          <div style="min-width: 0; position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 26px 30px 26px 40px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="position: absolute; left: 12px; top: 18px; bottom: 18px; width: 4px; border-radius: 999px; background: #4E57FF;"></div>
+            <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 17px; color: #1B1464;">Nota de libro</div>
+            <div style="font-size: 14px; line-height: 1.6; color: #4D4D4D; text-wrap: pretty;">El recuadro estándar: biselado, radio 12 px y filete azul eléctrico de 4 px con puntas redondeadas, separado 18 px de arriba y abajo.</div>
+          </div>
+          <div style="min-width: 0; position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 26px 30px 26px 40px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="position: absolute; left: 12px; top: 18px; bottom: 18px; width: 4px; border-radius: 999px; background: #00F6E3;"></div>
+            <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 17px; color: #1B1464;">Dato o cifra</div>
+            <div style="font-size: 14px; line-height: 1.6; color: #4D4D4D; text-wrap: pretty;">Mismo recuadro, filete en cian. Reservado para cifras del programa y resultados — nunca para advertencias.</div>
+          </div>
+          <div style="min-width: 0; position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 26px 30px 26px 40px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="position: absolute; left: 12px; top: 18px; bottom: 18px; width: 4px; border-radius: 999px; background: #FF3131;"></div>
+            <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 17px; color: #1B1464;">Advertencia clínica</div>
+            <div style="font-size: 14px; line-height: 1.6; color: #4D4D4D; text-wrap: pretty;">Filete en rojo, única entrada permitida para ese color. Solo seguridad del paciente: contraindicaciones, dosis techo, interacciones.</div>
+          </div>
+        </div>
+        <div style="font-size: 14px; color: #6A6F9E; max-width: 900px; text-wrap: pretty;">El bisel se construye con dos sombras interiores —<code>inset 2px 2px 0 #FFF</code> arriba-izquierda y <code>inset -2px -2px 0 rgba(27,20,100,.13)</code> abajo-derecha— sobre un relleno de blanco a #F7F7FC, más un asiento exterior mínimo. Nada de sombras difusas grandes: el recuadro se lee en relieve, no flotando.</div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; color: #6A6F9E;">02 · Degradados</div>
+        <div style="font-family: Lato, sans-serif; font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase; color: #6A6F9E; margin-top: 4px;">Las dos aprobadas</div>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px;">
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: radial-gradient(120% 90% at 10% 6%, #4E57FF 0%, rgba(78,87,255,0) 58%), radial-gradient(110% 100% at 94% 16%, #8D89F7 0%, rgba(141,137,247,0) 62%), radial-gradient(130% 110% at 78% 98%, #00F6E3 0%, rgba(0,246,227,0) 56%), linear-gradient(150deg, #1B1464 0%, #09052C 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Malla profunda</div>
+              <div style="font-size: 12px; color: #6A6F9E;">Favorita · portadas, stories, contraportadas</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: radial-gradient(110% 90% at 88% 12%, #B7FFF8 0%, rgba(183,255,248,0) 60%), radial-gradient(120% 100% at 6% 94%, #9D9DFF 0%, rgba(157,157,255,0) 58%), linear-gradient(140deg, #D2D2FC 0%, #F6F6F6 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Malla clara</div>
+              <div style="font-size: 12px; color: #6A6F9E;">Favorita · fichas, handouts, fondos de cita</div>
+            </div>
+          </div>
+        </div>
+        <div style="font-family: Lato, sans-serif; font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase; color: #6A6F9E; margin-top: 4px;">Sobrias · académicas</div>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px;">
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: linear-gradient(165deg, #1B1464 0%, #09052C 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Navy profundo</div>
+              <div style="font-size: 12px; color: #6A6F9E;">Bandas y portadas formales</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: radial-gradient(95% 65% at 50% 0%, rgba(54,64,215,0.45) 0%, rgba(54,64,215,0) 70%), linear-gradient(170deg, #1B1464 0%, #09052C 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Bóveda</div>
+              <div style="font-size: 12px; color: #6A6F9E;">Certificados, diplomas, actas</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: radial-gradient(75% 90% at 92% 8%, rgba(54,64,215,0.55) 0%, rgba(54,64,215,0) 62%), linear-gradient(160deg, #09052C 0%, #1B1464 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Luz lateral</div>
+              <div style="font-size: 12px; color: #6A6F9E;">Retratos, cubiertas de módulo</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: linear-gradient(160deg, #1B1464 0%, #6A6F9E 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Gris academia</div>
+              <div style="font-size: 12px; color: #6A6F9E;">Tablas, anexos, material interno</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: linear-gradient(170deg, #FFFFFF 0%, #F6F6F6 58%, #D2D2FC 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Papel</div>
+              <div style="font-size: 12px; color: #6A6F9E;">Documentos, guías, papelería</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: radial-gradient(95% 75% at 12% 4%, #FFFFFF 0%, rgba(255,255,255,0) 62%), linear-gradient(160deg, #D2D2FC 0%, #F6F6F6 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Editorial claro</div>
+              <div style="font-size: 12px; color: #6A6F9E;">Citas, aperturas de capítulo</div>
+            </div>
+          </div>
+        </div>
+        <div style="font-family: Lato, sans-serif; font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase; color: #6A6F9E; margin-top: 4px;">Dos y tres colores · para piezas de redes</div>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px;">
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: linear-gradient(140deg, #1B1464 0%, #3640D7 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Navy → azul</div>
+              <div style="font-size: 12px; color: #6A6F9E;">2 colores · cabeceras</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: linear-gradient(140deg, #09052C 0%, #3640D7 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Índigo → azul</div>
+              <div style="font-size: 12px; color: #6A6F9E;">2 colores · portadas sobrias</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: linear-gradient(140deg, #4E57FF 0%, #00F6E3 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Azul eléctrico → cian</div>
+              <div style="font-size: 12px; color: #6A6F9E;">2 colores · CTA, destacados</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: linear-gradient(140deg, #D2D2FC 0%, #B7FFF8 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Lila → menta</div>
+              <div style="font-size: 12px; color: #6A6F9E;">2 colores claros · fichas</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: linear-gradient(140deg, #3640D7 0%, #4E57FF 52%, #8D89F7 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Azul → eléctrico → periwinkle</div>
+              <div style="font-size: 12px; color: #6A6F9E;">3 colores · separadores</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.34);">
+            <div style="height: 240px; background: linear-gradient(140deg, #1B1464 0%, #3640D7 55%, #00F6E3 100%);"></div>
+            <div style="background: #FFFFFF; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #1B1464;">Navy → azul → cian</div>
+              <div style="font-size: 12px; color: #6A6F9E;">3 colores · stories, banners</div>
+            </div>
+          </div>
+        </div>
+        <div style="font-size: 14px; color: #6A6F9E; max-width: 900px; text-wrap: pretty;">No hace falta usar toda la paleta: las sobrias se quedan en navy e índigo con un solo halo de azul contenido — es el registro para certificados, documentos y cubiertas de módulo. Dos colores bastan para bandas y botones, tres para piezas de redes, y las mallas quedan para portadas. Regla única: todas las paradas salen de la paleta, los halos van a transparente y nunca a blanco, y sobre fondo claro el texto pasa a navy.</div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; color: #6A6F9E;">03 · Fichas de infografía</div>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px;">
+          <div style="min-width: 0; border-radius: 14px; background: linear-gradient(140deg, #1B1464 0%, #3640D7 100%); box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.35); padding: 14px; display: flex; flex-direction: column; gap: 12px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 2px 6px 0;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 1.5px; color: #FFFFFF;">MÓDULO 01</div>
+              <div style="position: relative; width: 38px; height: 38px; flex: none; border-radius: 999px; background: conic-gradient(#FFFFFF 0 18%, rgba(255,255,255,0.32) 18% 100%);"><div style="position: absolute; inset: 5px; border-radius: 999px; background: rgba(9,5,44,0.55); display: flex; align-items: center; justify-content: center; font-family: Lato, sans-serif; font-weight: 700; font-size: 9px; color: #FFFFFF;">18%</div></div>
+            </div>
+            <div style="position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 20px 18px 22px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
+              <img src="marca/iconos/azul/molecula.svg" alt="" style="height: 44px; width: auto; display: block;" />
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 16px; color: #1B1464;">Bioregulación</div>
+              <div style="font-size: 13px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;">Los péptidos como moduladores de señal, no como sustitutos hormonales.</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 14px; background: linear-gradient(140deg, #3640D7 0%, #4E57FF 52%, #8D89F7 100%); box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.35); padding: 14px; display: flex; flex-direction: column; gap: 12px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 2px 6px 0;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 1.5px; color: #FFFFFF;">MÓDULO 02</div>
+              <div style="position: relative; width: 38px; height: 38px; flex: none; border-radius: 999px; background: conic-gradient(#FFFFFF 0 34%, rgba(255,255,255,0.32) 34% 100%);"><div style="position: absolute; inset: 5px; border-radius: 999px; background: rgba(9,5,44,0.55); display: flex; align-items: center; justify-content: center; font-family: Lato, sans-serif; font-weight: 700; font-size: 9px; color: #FFFFFF;">34%</div></div>
+            </div>
+            <div style="position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 20px 18px 22px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
+              <img src="marca/iconos/azul/jeringa-vial.svg" alt="" style="height: 44px; width: auto; display: block;" />
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 16px; color: #1B1464;">Vías y dosis</div>
+              <div style="font-size: 13px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;">Reconstitución, conservación y cálculo por peso. Errores frecuentes.</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 14px; background: linear-gradient(140deg, #09052C 0%, #3640D7 100%); box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.35); padding: 14px; display: flex; flex-direction: column; gap: 12px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 2px 6px 0;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 1.5px; color: #FFFFFF;">MÓDULO 03</div>
+              <div style="position: relative; width: 38px; height: 38px; flex: none; border-radius: 999px; background: conic-gradient(#FFFFFF 0 52%, rgba(255,255,255,0.32) 52% 100%);"><div style="position: absolute; inset: 5px; border-radius: 999px; background: rgba(9,5,44,0.55); display: flex; align-items: center; justify-content: center; font-family: Lato, sans-serif; font-weight: 700; font-size: 9px; color: #FFFFFF;">52%</div></div>
+            </div>
+            <div style="position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 20px 18px 22px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
+              <img src="marca/iconos/azul/libros.svg" alt="" style="height: 44px; width: auto; display: block;" />
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 16px; color: #1B1464;">Evidencia</div>
+              <div style="font-size: 13px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;">Lectura crítica de los ensayos disponibles y sus límites reales.</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 14px; background: linear-gradient(140deg, #4E57FF 0%, #00F6E3 100%); box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.35); padding: 14px; display: flex; flex-direction: column; gap: 12px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 2px 6px 0;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 1.5px; color: #FFFFFF;">MÓDULO 04</div>
+              <div style="position: relative; width: 38px; height: 38px; flex: none; border-radius: 999px; background: conic-gradient(#FFFFFF 0 68%, rgba(255,255,255,0.32) 68% 100%);"><div style="position: absolute; inset: 5px; border-radius: 999px; background: rgba(9,5,44,0.55); display: flex; align-items: center; justify-content: center; font-family: Lato, sans-serif; font-weight: 700; font-size: 9px; color: #FFFFFF;">68%</div></div>
+            </div>
+            <div style="position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 20px 18px 22px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
+              <img src="marca/iconos/azul/podio-conferencista.svg" alt="" style="height: 44px; width: auto; display: block;" />
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 16px; color: #1B1464;">Consulta</div>
+              <div style="font-size: 13px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;">Cómo se construye el plan y cómo se explica al paciente.</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 14px; background: linear-gradient(140deg, #1B1464 0%, #8D89F7 100%); box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.35); padding: 14px; display: flex; flex-direction: column; gap: 12px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 2px 6px 0;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 1.5px; color: #FFFFFF;">MÓDULO 05</div>
+              <div style="position: relative; width: 38px; height: 38px; flex: none; border-radius: 999px; background: conic-gradient(#FFFFFF 0 84%, rgba(255,255,255,0.32) 84% 100%);"><div style="position: absolute; inset: 5px; border-radius: 999px; background: rgba(9,5,44,0.55); display: flex; align-items: center; justify-content: center; font-family: Lato, sans-serif; font-weight: 700; font-size: 9px; color: #FFFFFF;">84%</div></div>
+            </div>
+            <div style="position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 20px 18px 22px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
+              <img src="marca/iconos/azul/grupo-supervision.svg" alt="" style="height: 44px; width: auto; display: block;" />
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 16px; color: #1B1464;">Práctica</div>
+              <div style="font-size: 13px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;">Dos días en escenarios clínicos reales, con supervisión directa.</div>
+            </div>
+          </div>
+          <div style="min-width: 0; border-radius: 14px; background: linear-gradient(140deg, #3640D7 0%, #4AF1D2 100%); box-shadow: 0 12px 24px -14px rgba(27, 20, 100, 0.35); padding: 14px; display: flex; flex-direction: column; gap: 12px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 2px 6px 0;">
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 1.5px; color: #FFFFFF;">MÓDULO 06</div>
+              <div style="position: relative; width: 38px; height: 38px; flex: none; border-radius: 999px; background: conic-gradient(#FFFFFF 0 100%, rgba(255,255,255,0.32) 100% 100%);"><div style="position: absolute; inset: 5px; border-radius: 999px; background: rgba(9,5,44,0.55); display: flex; align-items: center; justify-content: center; font-family: Lato, sans-serif; font-weight: 700; font-size: 9px; color: #FFFFFF;">100%</div></div>
+            </div>
+            <div style="position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 20px 18px 22px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
+              <img src="marca/iconos/azul/diploma-sello.svg" alt="" style="height: 44px; width: auto; display: block;" />
+              <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 16px; color: #1B1464;">Certificación</div>
+              <div style="font-size: 13px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;">Evaluación final y aval de Florida Global University.</div>
+            </div>
+          </div>
+        </div>
+        <div style="font-size: 14px; color: #6A6F9E; max-width: 900px; text-wrap: pretty;">Cada ficha es un panel con degradado de la paleta y, encima, el recuadro biselado en blanco con el icono de marca en azul, el título en Lato Bold navy y el cuerpo en Arimo. El rótulo del paso y el anillo de avance van en blanco sobre el extremo oscuro del degradado — nunca sobre el extremo claro. Icono a un solo color plano, mínimo 24 px.</div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px;">
+        <div style="min-width: 0; position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 34px 36px; display: flex; flex-direction: column; gap: 20px;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <div style="width: 34px; height: 3px; border-radius: 999px; background: linear-gradient(90deg, #F6EABF 0%, #D1BA80 40%, #896B38 100%);"></div>
+            <div style="font-family: Lato, sans-serif; font-size: 12px; letter-spacing: 3.5px; text-transform: uppercase; color: #6A6F9E;">Antetítulo con filete de oro</div>
+          </div>
+          <h3 style="margin: 0; font-family: Lato, sans-serif; font-weight: 700; font-size: 28px; line-height: 1.14; color: #1B1464; text-wrap: pretty;">Bioregulación <span style="padding-bottom: 7px; background-image: linear-gradient(90deg, #00F6E3, #00F6E3); background-size: 100% 5px; background-position: 0 100%; background-repeat: no-repeat;">celular</span></h3>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 20px; color: #4E57FF;">Subtítulo en azul eléctrico</div>
+          <div style="font-family: ArimoLAI, sans-serif; font-weight: 700; font-size: 16px; color: #8D89F7;">Tercer nivel en periwinkle</div>
+          <div style="font-size: 15px; line-height: 1.65; color: #4D4D4D; text-wrap: pretty;">Cuerpo en Arimo regular. El énfasis fuerte va en <strong style="color: #1B1464;">navy sólido</strong>, el término técnico en <span style="padding-bottom: 4px; background-image: linear-gradient(90deg, #00F6E3, #00F6E3); background-size: 100% 3px; background-position: 0 100%; background-repeat: no-repeat;">subrayado de cian</span> y la remisión interna como <a href="#">enlace en azul</a>. Nunca más de un recurso de énfasis por frase.</div>
+        </div>
+        <div style="min-width: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 22px 44px -18px rgba(27, 20, 100, 0.34); background: radial-gradient(120% 90% at 10% 6%, #4E57FF 0%, rgba(78,87,255,0) 58%), radial-gradient(110% 100% at 94% 16%, #8D89F7 0%, rgba(141,137,247,0) 62%), radial-gradient(130% 110% at 78% 98%, #00F6E3 0%, rgba(0,246,227,0) 56%), linear-gradient(150deg, #1B1464 0%, #09052C 100%); padding: 34px 36px; display: flex; flex-direction: column; gap: 20px;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <div style="width: 34px; height: 3px; border-radius: 999px; background: #4AF1D2;"></div>
+            <div style="font-family: Lato, sans-serif; font-size: 12px; letter-spacing: 3.5px; text-transform: uppercase; color: #B7FFF8;">La misma jerarquía en oscuro</div>
+          </div>
+          <h3 style="margin: 0; font-family: Lato, sans-serif; font-weight: 700; font-size: 28px; line-height: 1.14; color: #FFFFFF; text-wrap: pretty;">Medicina <span style="padding-bottom: 7px; background-image: linear-gradient(90deg, #00F6E3, #00F6E3); background-size: 100% 5px; background-position: 0 100%; background-repeat: no-repeat;">peptídica</span></h3>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 20px; color: #4AF1D2;">Subtítulo en teal</div>
+          <div style="font-family: ArimoLAI, sans-serif; font-weight: 700; font-size: 16px; color: #8D89F7;">Tercer nivel en periwinkle</div>
+          <div style="font-size: 15px; line-height: 1.65; color: #FFFFFF; text-wrap: pretty;">Cuerpo en blanco pleno, nunca rebajado con opacidad. El énfasis pasa a <strong style="color: #B7FFF8;">menta</strong> y el subrayado se mantiene en cian, que al ir bajo la línea de base se lee igual sobre claro y sobre oscuro.</div>
+        </div>
+      </div>
+      <div style="font-size: 14px; color: #6A6F9E; max-width: 900px; text-wrap: pretty;">04 · Jerarquía — el subrayado de cian se hace con <code>background-image</code>: filete de 5 px anclado a <code>0 100%</code> sobre un <code>padding-bottom</code> de 7 px. Máximo tres niveles de encabezado por pieza y un solo recurso de énfasis por frase.</div>
+    </section>
+
+<section data-document-role="page" style="display: flex; flex-direction: column; gap: 26px;">
+      <div style="display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap;">
+        <h2 style="margin: 0; font-family: Lato, sans-serif; font-weight: 700; font-size: 28px; color: #1B1464;">Texto científico largo</h2>
+        <span style="font-size: 15px; color: #6A6F9E;">Libros, artículos, revistas, blogs e infografías con cuerpo extenso.</span>
+      </div>
+
+      <div style="font-size: 15px; line-height: 1.6; color: #4D4D4D; max-width: 900px; text-wrap: pretty;">Este régimen es distinto al del resto de la marca. Las piezas de comunicación respiran: interlineado 1.6, bandera a la izquierda, párrafos separados por aire. El texto científico largo hace lo contrario — se compone <strong>apretado, justificado y a dos columnas</strong>, porque así se lee un cuerpo denso sin que el ojo se pierda de línea.</div>
+
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px;">
+        <div style="min-width: 0; position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 26px 30px 26px 40px; display: flex; flex-direction: column; gap: 10px;">
+          <div style="position: absolute; left: 12px; top: 18px; bottom: 18px; width: 4px; border-radius: 999px; background: #4E57FF;"></div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 17px; color: #1B1464;">Cuerpo y interlineado</div>
+          <div style="font-size: 14px; line-height: 1.6; color: #4D4D4D; text-wrap: pretty;">Arimo Regular a <strong>10.5 pt con interlineado 1.35</strong> — nunca 1.6, que es el de las piezas de comunicación. Mínimo absoluto 9 pt / 1.35. Texto <strong>justificado</strong> con <code>hyphens: auto</code> y <code>lang="es"</code>: sin partición, el justificado abre calles blancas. <code>orphans: 3</code> y <code>widows: 3</code> en todo párrafo.</div>
+        </div>
+        <div style="min-width: 0; position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 26px 30px 26px 40px; display: flex; flex-direction: column; gap: 10px;">
+          <div style="position: absolute; left: 12px; top: 18px; bottom: 18px; width: 4px; border-radius: 999px; background: #00F6E3;"></div>
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 17px; color: #1B1464;">Párrafo</div>
+          <div style="font-size: 14px; line-height: 1.6; color: #4D4D4D; text-wrap: pretty;">Sangría de primera línea de <strong>1.2 em</strong> y <strong>cero espacio entre párrafos</strong>: en texto denso se usa una cosa o la otra, nunca las dos. El primer párrafo después de un título va <strong>sin sangría</strong>. Las citas en el cuerpo, en formato autor-año, van en azul <code>#3640D7</code>.</div>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; color: #6A6F9E;">Dos columnas</div>
+        <div style="font-size: 14px; line-height: 1.6; color: #4D4D4D; max-width: 900px; text-wrap: pretty;">Siempre <strong>dos columnas</strong> con <code>column-count: 2</code> y <code>column-gap</code> de 26 px (7 mm). Nunca columnas hechas con <code>flex</code> o <code>grid</code>: solo las columnas CSS reales fluyen y se cortan bien entre páginas. El ancho de columna debe caer entre <strong>58 y 68 caracteres</strong>; si la hoja es más estrecha, se baja a una columna antes que apretar la medida. Los títulos de sección viven dentro de la columna; solo la apertura de capítulo cruza las dos con <code>column-span: all</code>.</div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; color: #6A6F9E;">Imágenes</div>
+        <div style="font-size: 14px; line-height: 1.6; color: #4D4D4D; max-width: 900px; text-wrap: pretty;">El ancho de la imagen lo decide <strong>qué tiene que mostrar</strong>, no la estética de la página. <strong>Al ancho de las dos columnas</strong> (<code>column-span: all</code>): diagramas, flujos, tablas, gráficos comparativos, líneas de tiempo — todo lo que se lea en horizontal o necesite comparar. <strong>Al ancho de una columna</strong>: micrografías, retratos, detalles anatómicos, capturas de un solo panel. Toda figura lleva <code>break-inside: avoid</code> y su pie se compone según la regla de tres capas de abajo. Nunca imagen a sangre dentro del cuerpo, y nunca texto envolviendo la imagen.</div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; color: #6A6F9E;">Pie de figura</div>
+        <div style="font-size: 14px; line-height: 1.6; color: #4D4D4D; max-width: 900px; text-wrap: pretty;">El pie no describe la imagen: <strong>afirma lo que la imagen demuestra</strong>. Se compone en tres capas, siempre en este orden y justificado al ancho de la figura, nunca centrado.</div>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px;">
+          <div style="min-width: 0; position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 22px 24px 22px 34px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="position: absolute; left: 12px; top: 16px; bottom: 16px; width: 4px; border-radius: 999px; background: #4E57FF;"></div>
+            <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; color: #1B1464;">1 · Rótulo</div>
+            <div style="font-size: 13px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;"><code>FIGURA 3</code> en Lato Bold, caja alta, tracking 0.08 em, en <strong>azul eléctrico</strong> y en línea propia. Numeración corrida por capítulo, sin punto.</div>
+          </div>
+          <div style="min-width: 0; position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 22px 24px 22px 34px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="position: absolute; left: 12px; top: 16px; bottom: 16px; width: 4px; border-radius: 999px; background: #4E57FF;"></div>
+            <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; color: #1B1464;">2 · Frase-título</div>
+            <div style="font-size: 13px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;">Una sola frase en <strong>Arimo Bold navy</strong> que dice el hallazgo, no el contenido: «Edición eficiente mediante entrega magnética», no «Gráficos de eficiencia». Sin punto final.</div>
+          </div>
+          <div style="min-width: 0; position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 22px 24px 22px 34px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="position: absolute; left: 12px; top: 16px; bottom: 16px; width: 4px; border-radius: 999px; background: #00F6E3;"></div>
+            <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; color: #1B1464;">3 · Paneles</div>
+            <div style="font-size: 13px; line-height: 1.55; color: #4D4D4D; text-wrap: pretty;">Arimo Regular 8.5 pt / 1.4 en gris texto. Cada panel abre con su letra entre paréntesis en <strong>Arimo Bold navy</strong> — <strong>(A)</strong>, <strong>(B)</strong> — corrido en el mismo párrafo, nunca en lista.</div>
+          </div>
+        </div>
+        <div style="position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 26px 30px;">
+          <div style="height: 58px; border-radius: 6px; background: linear-gradient(140deg, #1B1464 0%, #3640D7 55%, #00F6E3 100%); margin-bottom: 12px;"></div>
+          <div style="font-family: ArimoLAI, sans-serif; font-size: 11.5px; line-height: 1.4; color: #4D4D4D; text-align: justify; hyphens: auto;">
+            <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #4E57FF; margin-bottom: 3px;">Figura 3</div>
+            <strong style="color: #1B1464;">Edición génica de alta eficiencia mediante entrega con nanopartícula magnética</strong><br />
+            <strong style="color: #1B1464;">(A)</strong> Comparación de la eficiencia de edición tras la entrega de los componentes <em>via</em> lipofección o magnetofección en células HEK293FT. Se emplearon cantidades iguales de los vectores de expresión en ambas condiciones. <strong style="color: #1B1464;">(B)</strong> Eficiencia promedio y edición no intencionada inducida en múltiples loci genómicos (<em>IFANCF</em>, <em>RUNX1</em>, <em>HEXA</em>, <em>EMX1</em> y <em>POR</em>). <strong style="color: #1B1464;">(C)</strong> Loci fuera de diana predichos <em>in silico</em>, correspondientes al experimento del panel A. Los desajustes ARN-ADN de la guía se destacan en rojo. Las frecuencias de edición se cuantificaron por secuenciación de nueva generación y se presentan como la media ± error estándar de tres réplicas biológicas independientes. La significancia se determinó por ANOVA de dos vías (ns: no significativo, *p ≤ 0.05, **p ≤ 0.01, ***p ≤ 0.001).
+          </div>
+        </div>
+        <div style="font-size: 14px; color: #6A6F9E; max-width: 900px; text-wrap: pretty;">Cursiva para latinismos (<em>via</em>, <em>in silico</em>, <em>in vivo</em>) y para nombres de gen y de especie. La notación estadística cierra el pie, entre paréntesis. El pie va <strong>debajo</strong> de la figura siempre — nunca encima, nunca al margen.</div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; color: #6A6F9E;">Especimen</div>
+        <div style="position: relative; background: linear-gradient(160deg, #FFFFFF 0%, #F7F7FC 100%); border-radius: 12px; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 1), inset -2px -2px 0 rgba(27, 20, 100, 0.13), 0 1px 1px rgba(27, 20, 100, 0.10), 0 9px 18px -11px rgba(27, 20, 100, 0.22); padding: 26px 30px;">
+          <div style="font-family: ArimoLAI, sans-serif; font-size: 11px; line-height: 1.35; color: #4D4D4D; text-align: justify; hyphens: auto; column-count: 2; column-gap: 26px; orphans: 3; widows: 3;">
+          <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 14px; line-height: 1.2; color: #4E57FF; margin-bottom: 6px;">Materiales y métodos</div>
+          <p style="margin: 0; text-indent: 0;">Las líneas celulares de origen humano se mantuvieron a 37 °C en atmósfera de CO<sub>2</sub> al 5 %. El medio se suplementó según el protocolo del fabricante y se renovó cada 48 horas hasta alcanzar una confluencia cercana al 70 % el día de la transfección.</p>
+          <p style="margin: 0; text-indent: 1.2em;">Los vectores de expresión se diseñaron para operar bajo el control de un promotor CMV, y cada ARN guía se expresó bajo un promotor U6 en formato de vector todo-en-uno. Las secuencias diana se seleccionaron con herramientas de diseño de uso libre y los oligonucleótidos se sintetizaron por encargo.</p>
+          <p style="margin: 0; text-indent: 1.2em;">La eficiencia de edición se comparó en condiciones celulares idénticas, manteniendo constante la concentración del vector y variando únicamente el método de entrega. Cada condición se ensayó por triplicado y los resultados se expresan como media ± desviación estándar.</p>
+          <div style="break-inside: avoid; margin: 10px 0;">
+            <div style="height: 54px; border-radius: 6px; background: linear-gradient(140deg, #D2D2FC 0%, #B7FFF8 100%);"></div>
+            <div style="margin-top: 5px;"><div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: #4E57FF;">Figura 1</div><div style="font-size: 9.5px; line-height: 1.4; color: #4D4D4D;"><strong style="color: #1B1464;">Micrografía a una columna</strong> Ilustra un detalle, no una comparación.</div></div>
+          </div>
+          <p style="margin: 0; text-indent: 1.2em;">Los ensayos de citotoxicidad se realizaron en paralelo para descartar que las diferencias observadas en la eficiencia se debieran a pérdida de viabilidad celular. No se registraron diferencias significativas entre condiciones.</p>
+        </div>
+        <div style="break-inside: avoid; margin-top: 14px;">
+          <div style="height: 62px; border-radius: 6px; background: linear-gradient(140deg, #1B1464 0%, #3640D7 55%, #00F6E3 100%);"></div>
+          <div style="font-family: ArimoLAI, sans-serif; margin-top: 5px;"><div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: #4E57FF;">Figura 2</div><div style="font-size: 9.5px; line-height: 1.4; color: #4D4D4D;"><strong style="color: #1B1464;">Figura al ancho de las dos columnas</strong> Reservada para diagramas, flujos, tablas y gráficos comparativos.</div></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="width: 100%; break-inside: avoid; background: radial-gradient(85% 70% at 14% 6%, #3640D7 0%, rgba(54, 64, 215, 0) 58%), radial-gradient(70% 90% at 92% 12%, #00F6E3 0%, rgba(0, 246, 227, 0) 54%), linear-gradient(155deg, #1B1464 0%, #09052C 100%); padding: 56px 48px 52px; box-sizing: border-box; position: relative; overflow: hidden;">
+      <img src="marca/elementos/llama-contorno-blanco.svg" alt="" style="position: absolute; right: -60px; top: -40px; height: 420px; width: auto; opacity: 0.14;" />
+      <div style="position: relative; display: flex; flex-direction: column; gap: 26px;">
+        <div style="display: flex; align-items: center; gap: 14px;">
+          <img src="marca/elementos/filete-oro-horizontal.svg" alt="" style="width: 34px; height: 3px;" />
+          <div style="font-family: Lato, sans-serif; font-weight: 400; font-size: 13px; letter-spacing: 0.29em; text-transform: uppercase; color: #B7FFF8;">Frase insignia</div>
+        </div>
+
+        <blockquote style="margin: 0; font-family: Lato, sans-serif; font-weight: 300; font-size: 40px; line-height: 1.22; color: #FFFFFF; max-width: 940px; text-wrap: pretty;">«Innovación sin evidencia es <em style="font-style: italic; font-weight: 400; color: #00F6E3;">especulación</em>. Evidencia sin individualidad biológica no alcanza la <em style="font-style: italic; font-weight: 400; color: #00F6E3;">excelencia</em>.»</blockquote>
+
+        <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase; color: #FFFFFF;">— Dra. Carolina Rodríguez Morales</div>
+
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 4px;">
+          <div style="background: rgba(255, 255, 255, 0.07); border-radius: 10px; padding: 18px 20px;">
+            <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #4AF1D2; margin-bottom: 5px;">Siempre completa</div>
+            <div style="font-family: ArimoLAI, sans-serif; font-size: 13px; line-height: 1.55; color: #FFFFFF;">Las dos oraciones van juntas: la primera sin la segunda invierte el argumento. Nunca se parafrasea ni se recorta.</div>
+          </div>
+          <div style="background: rgba(255, 255, 255, 0.07); border-radius: 10px; padding: 18px 20px;">
+            <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #4AF1D2; margin-bottom: 5px;">Dos palabras en cian</div>
+            <div style="font-family: ArimoLAI, sans-serif; font-size: 13px; line-height: 1.55; color: #FFFFFF;"><em style="font-style: italic;">Especulación</em> y <em style="font-style: italic;">excelencia</em>, en cursiva y cian sobre oscuro, azul eléctrico sobre claro. Ninguna otra palabra se destaca.</div>
+          </div>
+          <div style="background: rgba(255, 255, 255, 0.07); border-radius: 10px; padding: 18px 20px;">
+            <div style="font-family: Lato, sans-serif; font-weight: 700; font-size: 13px; color: #4AF1D2; margin-bottom: 5px;">Siempre firmada</div>
+            <div style="font-family: ArimoLAI, sans-serif; font-size: 13px; line-height: 1.55; color: #FFFFFF;">La autoría es de la Dra. Carolina Rodríguez Morales y viaja con la frase. Comillas angulares, Lato Light, nunca en versalitas.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <footer style="display: flex; align-items: center; justify-content: space-between; gap: 32px; border-top: 1px solid #DBDCE5; padding-top: 26px;">
+      <div style="font-size: 13px; color: #6A6F9E;">longevityacademicinstitute.com · @longevityacademicinstitute · WhatsApp (+57) 301 512 39 91</div>
+      <div style="font-size: 13px; color: #6A6F9E;">© 2026 Longevity &amp; Functional Medicine Academic Institute. Todos los derechos reservados.</div>
+    </footer>
+
+  </div>
+</div>
+</doc-page>
+</x-dc>
+</body>
+</html>
