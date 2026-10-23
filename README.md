@@ -19,8 +19,13 @@ brand/
     cfmc/                   Sello CFMC (Certified Functional Medicine Clinician)
   fotografia/
     dra-carolina/   Retratos oficiales
+  perfiles/
+    escudos/          9 imágenes de perfil 2160×2160 con el escudo (01–09)
+    logos-completos/  13 imágenes de perfil 2160×2160 con logo vertical, horizontal y wordmark (10–22)
+  material-grafico/ Piezas producidas: afiche del curso, graduación, carnets, brochure, video
 tokens/             Paleta, tipografía, gradientes, efectos (CSS, fuente Drive)
-fonts/              Tipografías embebidas (Lato, Arimo)
+fonts/              Tipografías: eb-garamond/ (OFL). Lato y Arimo pendientes de ingreso
+sitio-web/          Sitio longevityacademicinstitute.com (portada + página del curso)
 components/         Componentes HTML autocontenidos
 templates/decks/    Opciones de diseño del deck de formación académica
 guidelines/         Brandbook LAI
