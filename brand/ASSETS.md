@@ -40,6 +40,39 @@ Archivos auxiliares: `_oro.json` (rampa de 49 paradas del degradado oro del escu
 
 Cada logo y sello tiene además su variante `-trim.png`.
 
+## Perfiles para redes · `perfiles/`
+
+22 imágenes de perfil cuadradas, 2160×2160 PNG. Fuente: `LAI-perfiles_1-escudos.zip`
+y `LAI-perfiles_2-logos-completos.zip` (copiadas byte a byte, nombres en minúsculas).
+Patrón de nombre: `lai-perfil-NN_<logo>-<tinta>_<fondo>.png`.
+
+| Carpeta | Archivos | Contenido |
+|---|---|---|
+| `escudos/` | 01–09 | Escudo solo: oro sobre malla profunda, navy, índigo-azul, blanco, malla clara; escudo blanco sobre azul eléctrico y navy-azul-cian; escudo navy sobre lila-menta y blanco |
+| `logos-completos/` | 10–15 | Logo vertical: blanco sobre malla profunda, navy, azul eléctrico; navy sobre blanco, malla clara, editorial claro |
+| `logos-completos/` | 16–19 | Logo horizontal: blanco sobre malla profunda, índigo-azul; navy sobre blanco, gris claro |
+| `logos-completos/` | 20–22 | Wordmark: blanco sobre navy, navy-azul; navy sobre blanco |
+
+## Material gráfico · `material-grafico/`
+
+14 imágenes y 1 video de piezas producidas para la academia. Inventario y nombres
+originales en `material-grafico/MATERIAL-GRAFICO.md`.
+
+## Tipografía EB Garamond · `../fonts/eb-garamond/`
+
+Descarga completa de Google Fonts: 2 variables (`wght`, normal e itálica) y 10
+estáticas (Regular a ExtraBold, con itálicas). Licencia SIL Open Font License
+(`OFL.txt`, debe acompañar siempre a las fuentes).
+
+## Sitio web · `../sitio-web/`
+
+Sitio publicado en `longevityacademicinstitute.com` (`CNAME`): `index.html`
+(portada: "La excelencia contínua del pensamiento médico.") y `curso/index.html`
+(página autocontenida de la Formación en Medicina Peptídica y Bioregulación
+Celular, ~4 MB). Fuente: `LAI_brand_manual_location.zip`.
+
 ## Pendientes de ingreso
 
-- Ninguno por ahora.
+- `fonts/` Lato y Arimo: `tokens/fonts.css` los referencia, pero los archivos no
+  están en el repo.
+- `components/` y `guidelines/` (brandbook): listados en el README, sin contenido aún.
