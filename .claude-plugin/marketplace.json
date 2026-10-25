@@ -1,0 +1,15 @@
+{
+  "name": "lai-brand-system",
+  "owner": { "name": "Dra. Carolina Rodríguez Morales — Longevity Academic Institute" },
+  "metadata": {
+    "description": "Marketplace de marca de LAI. Este repositorio es la fuente única; Cowork, Claude Code y Claude Design se actualizan desde aquí.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "lai-suite",
+      "source": "./plugins/lai-suite",
+      "description": "Suite de marca y producción académica de LAI: sistema de diseño (Manual v2), infografías de módulo, piezas gráficas, material de curso, marketing y evidencia."
+    }
+  ]
+}
