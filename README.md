@@ -43,3 +43,13 @@ guidelines/         Manual de marca LAI (Claude Design) — ver guidelines/READM
 ## Inventario
 
 Ver `brand/ASSETS.md`.
+
+## Fuente única y plugin
+
+```
+.claude-plugin/marketplace.json   marketplace: lai-suite
+plugins/lai-suite/                skills vigentes (lai-design-system, infografía, piezas, material de curso, marketing, evidencia)
+.claude/skills/                   symlinks a plugins/lai-suite/skills (carga directa en Claude Code)
+VERSION · CHANGELOG.md · MIGRACION.md
+```
+El skill anterior `lai-brand-system` se retiró (ver CHANGELOG). Ver `MIGRACION.md` para Cowork y Claude Design.
