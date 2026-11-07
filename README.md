@@ -23,6 +23,7 @@ brand/
     escudos/          9 imágenes de perfil 2160×2160 con el escudo (01–09)
     logos-completos/  13 imágenes de perfil 2160×2160 con logo vertical, horizontal y wordmark (10–22)
   material-grafico/ Piezas producidas: afiche del curso, graduación, carnets, brochure, video
+  the-longevity-journal/  Sub-marca The Longevity Journal® (logotipos, paleta, portada N.º 01, guía)
 tokens/             Paleta, tipografía, gradientes, efectos (CSS, fuente Drive)
 fonts/              Tipografías: Lato (300, 400, 400 itálica, 700, 900), Arimo (400, 400 itálica, 700) y eb-garamond/ (OFL)
 sitio-web/          Sitio longevityacademicinstitute.com (portada + página del curso)

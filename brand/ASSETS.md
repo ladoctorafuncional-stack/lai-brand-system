@@ -58,6 +58,20 @@ Patrón de nombre: `lai-perfil-NN_<logo>-<tinta>_<fondo>.png`.
 14 imágenes y 1 video de piezas producidas para la academia. Inventario y nombres
 originales en `material-grafico/MATERIAL-GRAFICO.md`.
 
+## The Longevity Journal® · `the-longevity-journal/`
+
+Sub-marca editorial de LAI. Paquete `marca-the-longevity-journal-v2.zip` copiado
+tal cual (38 archivos, estructura original). Detalle en su propio `README.md`.
+
+- `svg/` y `png/` (4000 px): logotipo vigente `actualidad-1linea-*` y `wordmark-*`,
+  en blanco, navy, mono-blanco y mono-navy.
+- `paleta.css` / `paleta.json`: tokens `--lj-*` y degradado de marca.
+- `portada/journal-portada-n01-octubre-2026.png` (1500×2000).
+- `guia.html` y `guia-de-marca.png`: guía visual.
+- `fuentes/`: Lato 300/400/700/900 (idénticas a `../fonts/`).
+- `lai/`: escudo y logo horizontal LAI que acompañan al Journal. Mismo diseño que
+  `logos/lai/`, exportación distinta (logo horizontal a 2133×600 en vez de 4266×1200).
+
 ## Tipografía EB Garamond · `../fonts/eb-garamond/`
 
 Descarga completa de Google Fonts: 2 variables (`wght`, normal e itálica) y 10
