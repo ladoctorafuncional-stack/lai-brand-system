@@ -1,0 +1,8 @@
+:root{
+  --lj-azul:#3640D7; --lj-azul-electrico:#4E57FF; --lj-periwinkle:#8D89F7;
+  --lj-cian:#00F6E3; --lj-blanco:#FFFFFF; --lj-lila:#D2D2FC;
+  --lj-navy:#1B1464; --lj-indigo:#09052C; --lj-periwinkle-claro:#9D9DFF;
+  --lj-teal:#4AF1D2; --lj-menta:#B7FFF8;
+  --lj-gris-texto:#4D4D4D; --lj-gris-linea:#DBDCE5; --lj-gris-fondo:#F6F6F6;
+  --lj-degradado:linear-gradient(135deg,#3640D7 0%,#4E57FF 52%,#8D89F7 100%);
+}

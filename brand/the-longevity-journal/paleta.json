@@ -1,0 +1,32 @@
+{
+  "marca": "The Longevity Journal — Medicina funcional y longevidad",
+  "base": "Longevity Academic Institute (LAI)",
+  "principales": {
+    "azul": "#3640D7",
+    "azul-electrico": "#4E57FF",
+    "periwinkle": "#8D89F7",
+    "cian": "#00F6E3",
+    "blanco": "#FFFFFF",
+    "lila": "#D2D2FC"
+  },
+  "apoyo": {
+    "navy": "#1B1464",
+    "indigo": "#09052C",
+    "periwinkle-claro": "#9D9DFF",
+    "teal": "#4AF1D2",
+    "menta": "#B7FFF8",
+    "gris-texto": "#4D4D4D",
+    "gris-linea": "#DBDCE5",
+    "gris-fondo": "#F6F6F6"
+  },
+  "degradado-portada": "linear-gradient(135deg, #3640D7 0%, #4E57FF 52%, #8D89F7 100%)",
+  "tipografia": {
+    "familia": "Lato",
+    "meta": "Regular 400, 30px, MAYUSCULAS, tracking 0.2em",
+    "titulo-linea-1": "Light 300, 150px",
+    "titulo-linea-2": "Black 900, 258px",
+    "subtitulo": "Bold 700, 52px",
+    "bajada": "Light 300, 42px / 56px",
+    "pie": "Regular 400, 30px, tracking 0.04em"
+  }
+}
